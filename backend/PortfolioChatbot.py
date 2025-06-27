@@ -1,6 +1,10 @@
 from openai import OpenAI
-import os
 from ChatbotDatabase import ChatbotDatabase
+from dotenv import load_dotenv
+import os
+
+# Load .env from the correct relative path
+load_dotenv(dotenv_path="../my_portfolio/.env")
 
 class PortfolioChatbot:
     def __init__(self): #initialize things that all methods will use
@@ -64,7 +68,7 @@ class PortfolioChatbot:
                 {
                     "role": "system",
                     "content": "You are Akshat Bist's personal portfolio chatbot. You are friendly. "
-                    "Consicely answer questions. Max 1-2 sentences."
+                    "Max 1-2 sentences."
                     "DON'T BE VERBOSE. "
                     "If you do not know the answer, say 'I don't know'."
                 },
