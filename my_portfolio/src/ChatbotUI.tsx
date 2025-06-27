@@ -12,7 +12,7 @@ const ChatbotUI = () => {
     setTimeout(() => {
       setModal(false);
       setClosing(false);
-    }, 300); // match with CSS fade-out duration
+    }, 300); 
   };
 
   return (

@@ -52,14 +52,12 @@ p {
   zoom:0.7
 }
 
-/* Ensure the logo aligns with nav properly */
 .sticky-header .logo {
   font-size: 1.5rem;
   font-weight: bold;
   color: #ffffff;
 }
 
-/* Already good: update navbar for better alignment if needed */
 .navbar {
   display: flex;
   gap: 2rem;
@@ -111,24 +109,24 @@ p {
 .navbar a:nth-of-type(4):hover ~ .line { --index: 4; }
 
 
-/* Add padding to account for fixed navbar */
+
 .section {
-  scroll-margin-top: 80px; /* So scroll doesn't hide under navbar */
+  scroll-margin-top: 80px; 
 }
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
-/* Hidden by default */
+
 .hidden {
   opacity: 0;
   transform: translateY(40px);
   transition: 
     opacity 2s ease-out,
-    transform 2s cubic-bezier(0.25, 0.8, 0.25, 1); /* smooth & slow */
+    transform 2s cubic-bezier(0.25, 0.8, 0.25, 1); 
 }
 
-/* Fade-in when visible */
+
 .fade-in {
   opacity: 0.95;
   transform: translateY(0);
@@ -151,7 +149,6 @@ html {
 }
 
 
-
 .hero-title {
   font-size: 6rem;
   margin: 0;
@@ -160,7 +157,7 @@ html {
 
 .hero-subtitle {
   font-size: 1.25rem;
-  margin: 16px 0 40px; /* more breathing room below subtitle */
+  margin: 16px 0 40px; 
   color: #cccccc;
   zoom: 0.7
 }
@@ -169,7 +166,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 16px;         /* tighter gap */
+  gap: 16px;         
   margin-top: 0;
 }
 
@@ -233,9 +230,9 @@ html {
   width: 100%;
   max-width: 800px;
   padding: 5px;
-  margin-left: 50px;  /* pushes it to the right */
-  margin-right: 5px; /* optional spacing from the right edge */
-  margin-top: auto; /* optional spacing from the top */
+  margin-left: 50px;  
+  margin-right: 5px; 
+  margin-top: auto; 
 }
 .logo{
   font-size: 1.5rem;
@@ -341,10 +338,6 @@ html {
     opacity: 0;
   }
 }
-
-
-
-
 
 .about_me_section {
   min-height: 100vh;
@@ -471,7 +464,7 @@ html {
   flex-wrap: wrap;
   justify-content: center;
   gap: 16px;
-  margin-top: 18px; /* more spacing below h3 */
+  margin-top: 18px; 
   padding-top: 8px;
 }
 
@@ -487,13 +480,12 @@ html {
   filter: grayscale(0%) brightness(2);
 }
 
-/* Tools card spans both columns */
 .tools-card {
   grid-column: 1 / span 2;
   justify-self: center;
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   .tech-stack-grid {
     grid-template-columns: 1fr;
@@ -515,7 +507,7 @@ html {
   }
 }
 
-/* Tooltip styling */
+
 .tooltip {
   position: relative;
   display: inline-block;
@@ -542,7 +534,7 @@ html {
   z-index: 10;
 }
 
-/* Add a subtle arrow */
+
 .tooltiptext::after {
   content: "";
   position: absolute;
@@ -559,8 +551,6 @@ html {
   visibility: visible;
   transform: translateX(-50%) translateY(0);
 }
-
-
 
 .title-container {
   display: flex;
@@ -587,9 +577,6 @@ html {
 .section-title{
   font-size: 3.5rem;
 }
-
-
-
 
 .project-cards {
   display: grid;
@@ -663,7 +650,6 @@ html {
   padding-top: 4px;
 }
 
-/* Optional: add vertical spacing boost */
 .project-overlay > * {
   margin-top: 6px;
 }
@@ -702,10 +688,10 @@ html {
 .chatbot-button {
   width: 80px;
   height: 80px;
-  background: linear-gradient(145deg, #1e1e28, #2c2c3d); /* dark charcoal blues */
-  border: 1.5px solid #4a4a5a; /* subtle muted gray-blue border */
+  background: linear-gradient(145deg, #1e1e28, #2c2c3d); 
+  border: 1.5px solid #4a4a5a; 
   border-radius: 50%;
-  color: #c0c0c8; /* soft gray text/icon */
+  color: #c0c0c8; 
   font-size: 26px;
   cursor: pointer;
   display: flex;
@@ -723,9 +709,9 @@ html {
 }
 
 .chatbot-button:hover {
-  background: linear-gradient(145deg, #2a2a38, #5a5a78); /* slightly lighter but still dark */
+  background: linear-gradient(145deg, #2a2a38, #5a5a78); 
   border-color: #6b6b7e;
-  color: #e0e0e8; /* slightly lighter text */
+  color: #e0e0e8; 
   box-shadow:
     0 0 12px rgba(80, 80, 110, 0.5),
     inset 0 0 10px rgba(120, 120, 140, 0.25);
@@ -893,9 +879,6 @@ html {
     opacity: 0.95;
   }
 }
-
-
-
 
 .contact-container {
   max-width: 700px;

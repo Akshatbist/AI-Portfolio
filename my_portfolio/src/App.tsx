@@ -270,7 +270,6 @@ const App = () => {
             </div>
           </div>
         </Section>{" "}
-        {/* ✅ Fixed closing tag here */}
         <Section id="projects">
           <div className="project_container">
             <h2 className="section-title">Projects</h2>

@@ -94,7 +94,7 @@ const ChatbotPopup: React.FC<ChatbotPopupProps> = ({ onClose, closing }) => {
             </div>
           ))}
 
-          {/* Typing animation while loading */}
+          
           {loading && (
             <div className="chat-message bot-message">
               <img className="avatar-image" src={icons.chatboticon} alt="Bot" />
