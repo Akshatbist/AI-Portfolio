@@ -960,7 +960,7 @@ html {
 
 .success-msg {
   text-align: center;
-  color: #4caf50;
+  color: #666;
   font-weight: bold;
   animation: fadeIn 0.5s ease-in-out;
 }

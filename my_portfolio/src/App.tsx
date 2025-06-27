@@ -7,8 +7,10 @@ import ChatbotUI from "./ChatbotUI.tsx";
 import profilepic from "./profile_pic.jpg";
 import { useForm, ValidationError } from "@formspree/react";
 
+const formKey = import.meta.env.VITE_FORM_URL;
+
 function ContactForm() {
-  const [state, handleSubmit] = useForm("xqabwadw");
+  const [state, handleSubmit] = useForm(formKey);
   const formRef = useRef(null);
   const [showMessage, setShowMessage] = useState(false);
 
