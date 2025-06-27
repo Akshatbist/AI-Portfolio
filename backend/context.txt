@@ -1,0 +1,57 @@
+Akshat Bist  
+Contact: +1 510-513-1854 | abist@cpp.edu  
+LinkedIn: linkedin.com/in/akshat-bist  
+GitHub: github.com/Akshatbist
+Age: 20 years old
+Birthdate: October 29th, 2004
+
+Personal:
+- Akshat is a curious and motivated learner who loves solving challenging problems with technology.   
+- Passionate about AI and machine learning, Akshat always looks for innovative ways to apply these tools to real-world problems.  
+- He values clear communication, creativity, and persistence in both work and learning.  
+- Outside of coding, Akshat likes going to the gym, play soccer and boxing, videography, and studying interesting subject. 
+
+Education:  
+California State Polytechnic University, Pomona, CA  
+BA in Computer Information Systems, Minor in Computer Science (Aug 2022 – May 2026)  
+Honors: President’s List, Dean’s List, CBA Dean’s Honor Scholarship, Pace Setter’s Scholarship  
+Relevant Coursework: Deep Learning Specialist Certification, Big Data Analytics & Cloud Computing, Database Design & Development, Data Structures & Advanced Programming, Probability & Statistics for CS & Engineering, Multivariable Calculus, Linear Algebra  
+
+Experience:  
+Research Team in Artificial Intelligence Applications and Implementations (Aug 2023 – May 2024)  
+Role: Research Lead, Pomona, CA  
+- Led and managed a 20+ member research team developing machine learning models and AI-driven software solutions.  
+- Engineered a cybersecurity chatbot with advanced NLP using PyTorch and TensorFlow for threat detection and automated response.  
+- Conducted AI workshops, mentoring students on deep learning and deployment, increasing engagement by 25%.  
+
+Research Team in Digital Forensics and Incident Response (Aug 2023 – Dec 2023)  
+Role: Research Lead, Pomona, CA  
+- Led a 15+ member team analyzing digital security threats and improving cybersecurity defenses with forensic methods.  
+- Delivered live decryption workshops providing hands-on experience in threat analysis.  
+
+Machine Learning HTGR Project (Sep 2023 – Dec 2023)  
+Role: Team Member, Pomona, CA  
+- Developed neural networks predicting vehicle movements with 98% accuracy to improve autonomous system reliability.  
+- Optimized LSTM training with efficient large-scale data processing using NumPy and Pandas.  
+
+Projects:  
+Job Application Auto-fill Bot (Spring 2025)  
+- Built an AI-powered bot using Python, Selenium, OpenAI API, and FastAPI to extract resume data and autofill job applications.  
+- Designed modular architecture with robust error handling and a Chrome extension for easy access.  
+- Managed dropdowns, checkboxes, and file uploads via semantic mapping and JavaScript injection.  
+- Used vector embeddings for persistent QA matching to enhance autofill accuracy.  
+
+Freelance AI Chatbot (Fall 2024)  
+- Developed a business-tailored chatbot using Retrieval-Augmented Generation (RAG), web scraping, OpenAI embeddings, and AstraDB for semantic search.  
+- Created a robust pipeline integrating large language models with a scalable vector database for efficient knowledge retrieval.  
+
+Acne Detector (Fall 2024)  
+- Curated and annotated an acne image dataset for detection and severity classification using YOLOv8.  
+- Trained and optimized the YOLOv8 model for real-time acne detection.  
+- Developed a full-stack app with FastAPI backend and React (Vite + TypeScript) frontend for image upload and live results.  
+- Improved accuracy through data augmentation, confidence tuning, and bounding box visualization.  
+
+Technical Skills:  
+Languages: Python, Java, C, SQL, HTML, CSS, JavaScript, TypeScript  
+Frameworks: TensorFlow, PyTorch, pandas, NumPy, Seaborn, LangChain, ReactJS, FastAPI  
+Applications & Tools: MongoDB, Docker, Kubernetes, Microsoft Azure, AWS, HuggingFace, Kaggle, Erwin, Neo4J, PostgreSQL, VirtualBox  
