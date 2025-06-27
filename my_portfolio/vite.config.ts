@@ -1,9 +1,11 @@
 /// <reference types="vite/client" />
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
-// https://vite.dev/config/
+// Safely get the env var or fallback to "/AI-Portfolio"
+const basePath = typeof import.meta.env.VITE_BASE_PATH === "string" ? import.meta.env.VITE_BASE_PATH : "/AI-Portfolio";
+
 export default defineConfig({
   plugins: [react()],
-  base: import.meta.env.VITE_BASE_PATH || "/AI-Portfolio"
-})
+  base: basePath,
+});
