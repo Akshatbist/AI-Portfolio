@@ -1,6 +1,5 @@
 {
   "buildCommand": "npx vite build",
   "outputDirectory": "dist",
-  "framework": "vite",
-  "rootDirectory": "my_portfolio"
+  "framework": "vite"
 }
