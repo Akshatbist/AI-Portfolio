@@ -2,5 +2,8 @@
   "dependencies": {
     "@splinetool/react-spline": "^4.0.0",
     "@splinetool/runtime": "^1.10.4"
+  },
+  "devDependencies": {
+    "vite": "^7.0.0"
   }
 }
