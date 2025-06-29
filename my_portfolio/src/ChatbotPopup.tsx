@@ -51,11 +51,14 @@ const ChatbotPopup: React.FC<ChatbotPopupProps> = ({ onClose, closing }) => {
     setLoading(true);
 
     try {
-      const response = await fetch("http://127.0.0.1:8000/answer_question", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ question: message }),
-      });
+      const response = await fetch(
+        `${import.meta.env.VITE_BACKEND_URL}/answer_question`,
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ question: message }),
+        }
+      );
 
       const data = await response.json();
       setMessages((msgs) => [...msgs, { sender: "bot", text: data.answer }]);
@@ -94,7 +97,6 @@ const ChatbotPopup: React.FC<ChatbotPopupProps> = ({ onClose, closing }) => {
             </div>
           ))}
 
-          
           {loading && (
             <div className="chat-message bot-message">
               <img className="avatar-image" src={icons.chatboticon} alt="Bot" />
