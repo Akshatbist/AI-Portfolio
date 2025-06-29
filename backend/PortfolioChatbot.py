@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 import os
 
 # Load .env from the correct relative path
-load_dotenv(dotenv_path="../my_portfolio/.env")
+load_dotenv(dotenv_path="./.env")
 
 class PortfolioChatbot:
     def __init__(self): #initialize things that all methods will use

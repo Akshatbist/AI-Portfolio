@@ -29,14 +29,7 @@ class ChatbotDatabase():
             chunks.append(current_chunk.strip())
         return chunks
     
-
-
-
-
-
-
     def store_context(self, label, context):
-        embedding = self.model.encode(context).tolist()
         safe_id = label[:20].replace(" ", "_").replace("?", "").replace("/", "_")
         chunks = self.chunk_text(context)
         for i, chunk in enumerate(chunks):
