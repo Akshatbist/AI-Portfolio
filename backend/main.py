@@ -14,14 +14,10 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=["http://localhost:5173", 
     "https://ai-portfolio-ndiwz53gv-akshatbists-projects.vercel.app"],  # your React dev server address
-
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
-#BaseModel is an abstract class that is meant to be inherited from.
-#Doesn't have any parameters of its own.
 
 class QuestionRequest(BaseModel):
     question: str
@@ -34,3 +30,8 @@ def read_root():
 def answer_question(data: QuestionRequest):
     answer = chatbot.answer_question(data.question)
     return {"answer": answer}
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run("main:app", host="0.0.0.0", port=8000)
+
