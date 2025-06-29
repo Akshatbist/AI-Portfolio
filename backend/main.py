@@ -13,7 +13,7 @@ chatbot.store_context()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["http://localhost:5173", 
-    "https://ai-portfolio-ndiwz53gv-akshatbists-projects.vercel.app"],  # your React dev server address
+    "https://ai-portfolio-28t1hz4rc-akshatbists-projects.vercel.app"],  # your React dev server address
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
