@@ -9,6 +9,8 @@ import { useForm, ValidationError } from "@formspree/react";
 
 const formKey = import.meta.env.VITE_FORM_URL;
 
+//TODO: LAST CHANGE make everything look like its been scaled to 80%.
+
 function ContactForm() {
   const [state, handleSubmit] = useForm(formKey);
   const formRef = useRef(null);
@@ -121,6 +123,12 @@ const App = () => {
     });
   }, []);
 
+  const [menuActive, setMenuActive] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuActive((prev) => !prev);
+  };
+
   return (
     <>
       <div className="app">
@@ -131,11 +139,33 @@ const App = () => {
         </div>
         <header className="sticky-header">
           <div className="logo-gradient_h2">Akshat Bist</div>
-          <nav className="navbar">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
+
+          <button
+            className="menu-toggle"
+            onClick={toggleMenu}
+            aria-label="Toggle navigation menu"
+          >
+            <img
+              src={icons.burgericon}
+              alt="Menu Icon"
+              className="burger-icon"
+            />
+          </button>
+
+          {/* Responsive Navigation Menu */}
+          <nav className={`navbar ${menuActive ? "active" : ""}`}>
+            <a href="#home" onClick={() => setMenuActive(false)}>
+              Home
+            </a>
+            <a href="#about" onClick={() => setMenuActive(false)}>
+              About
+            </a>
+            <a href="#projects" onClick={() => setMenuActive(false)}>
+              Projects
+            </a>
+            <a href="#contact" onClick={() => setMenuActive(false)}>
+              Contact
+            </a>
             <div className="line"></div>
           </nav>
         </header>
@@ -210,67 +240,69 @@ const App = () => {
             </div>
 
             {/* Tech Stack */}
-            <div className="tech-stack-grid">
-              {/* Languages */}
-              <div className="tech-card">
-                <h3>💻 Languages</h3>
-                <div className="tech-icons">
-                  {[
-                    { icon: icons.pythonIcon, name: "Python" },
-                    { icon: icons.javaIcon, name: "Java" },
-                    { icon: icons.azuresqlIcon, name: "SQL" },
-                    { icon: icons.html5Icon, name: "HTML" },
-                    { icon: icons.css3Icon, name: "CSS" },
-                    { icon: icons.javascriptIcon, name: "JavaScript" },
-                  ].map((item, i) => (
-                    <div className="tooltip" key={i}>
-                      <img src={item.icon} alt={`${item.name} Icon`} />
-                      <span className="tooltiptext">{item.name}</span>
-                    </div>
-                  ))}
+            <div className="tech-section-wrapper">
+              <div className="tech-stack-grid">
+                {/* Languages */}
+                <div className="tech-card">
+                  <h3>💻 Languages</h3>
+                  <div className="tech-icons">
+                    {[
+                      { icon: icons.pythonIcon, name: "Python" },
+                      { icon: icons.javaIcon, name: "Java" },
+                      { icon: icons.azuresqlIcon, name: "SQL" },
+                      { icon: icons.html5Icon, name: "HTML" },
+                      { icon: icons.css3Icon, name: "CSS" },
+                      { icon: icons.javascriptIcon, name: "JavaScript" },
+                    ].map((item, i) => (
+                      <div className="tooltip" key={i}>
+                        <img src={item.icon} alt={`${item.name} Icon`} />
+                        <span className="tooltiptext">{item.name}</span>
+                      </div>
+                    ))}
+                  </div>
                 </div>
-              </div>
 
-              {/* Frameworks */}
-              <div className="tech-card">
-                <h3>⚙️ Frameworks</h3>
-                <div className="tech-icons">
-                  {[
-                    { icon: icons.reactIcon, name: "React" },
-                    { icon: icons.fastapiIcon, name: "FastAPI" },
-                    { icon: icons.supabaseIcon, name: "Supabase" },
-                    { icon: icons.tensorflowIcon, name: "TensorFlow" },
-                    { icon: icons.pytorchIcon, name: "PyTorch" },
-                  ].map((item, i) => (
-                    <div className="tooltip" key={i}>
-                      <img src={item.icon} alt={`${item.name} Icon`} />
-                      <span className="tooltiptext">{item.name}</span>
-                    </div>
-                  ))}
+                {/* Frameworks */}
+                <div className="tech-card">
+                  <h3>⚙️ Frameworks</h3>
+                  <div className="tech-icons">
+                    {[
+                      { icon: icons.reactIcon, name: "React" },
+                      { icon: icons.fastapiIcon, name: "FastAPI" },
+                      { icon: icons.supabaseIcon, name: "Supabase" },
+                      { icon: icons.tensorflowIcon, name: "TensorFlow" },
+                      { icon: icons.pytorchIcon, name: "PyTorch" },
+                    ].map((item, i) => (
+                      <div className="tooltip" key={i}>
+                        <img src={item.icon} alt={`${item.name} Icon`} />
+                        <span className="tooltiptext">{item.name}</span>
+                      </div>
+                    ))}
+                  </div>
                 </div>
-              </div>
 
-              {/* Tools */}
-              <div className="tech-card tools-card">
-                <h3>🛠️ Tools</h3>
-                <div className="tech-icons">
-                  {[
-                    { icon: icons.mongodbIcon, name: "MongoDB" },
-                    { icon: icons.azureIcon, name: "Azure" },
-                    { icon: icons.awsicon, name: "AWS" },
-                    { icon: icons.huggingfaceicon, name: "Hugging Face" },
-                  ].map((item, i) => (
-                    <div className="tooltip" key={i}>
-                      <img src={item.icon} alt={`${item.name} Icon`} />
-                      <span className="tooltiptext">{item.name}</span>
-                    </div>
-                  ))}
+                {/* Tools */}
+                <div className="tech-card tools-card">
+                  <h3>🛠️ Tools</h3>
+                  <div className="tech-icons">
+                    {[
+                      { icon: icons.mongodbIcon, name: "MongoDB" },
+                      { icon: icons.azureIcon, name: "Azure" },
+                      { icon: icons.awsicon, name: "AWS" },
+                      { icon: icons.huggingfaceicon, name: "Hugging Face" },
+                    ].map((item, i) => (
+                      <div className="tooltip" key={i}>
+                        <img src={item.icon} alt={`${item.name} Icon`} />
+                        <span className="tooltiptext">{item.name}</span>
+                      </div>
+                    ))}
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </Section>{" "}
-        <Section id="projects">
+        <Section id="projects" className="project_section">
           <div className="project_container">
             <h2 className="section-title">Projects</h2>
             <div className="project-cards">
@@ -315,7 +347,7 @@ const App = () => {
             </div>
           </div>
         </Section>
-        <Section id="contact">
+        <Section id="contact" className="contact_section">
           <div className="contact-container">
             <h2 className="contact-title">Contact</h2>
             <div className="contact-info">

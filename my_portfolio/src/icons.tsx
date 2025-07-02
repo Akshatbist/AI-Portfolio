@@ -17,6 +17,7 @@ import tensorflowIcon from "./tensorflow-original.svg";
 import huggingfaceicon from "./hf-logo.svg";
 import awsicon from "./amazonwebservices-original-wordmark.svg";
 import chatboticon from "./chatbot-icon.svg";
+import burgericon from "./menu.svg";
 
 export default {
   githubIcon,
@@ -38,4 +39,5 @@ export default {
   huggingfaceicon,
   awsicon,
   chatboticon,
+  burgericon,
 };
