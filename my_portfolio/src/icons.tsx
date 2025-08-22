@@ -18,6 +18,8 @@ import huggingfaceicon from "./hf-logo.svg";
 import awsicon from "./amazonwebservices-original-wordmark.svg";
 import chatboticon from "./chatbot-icon.svg";
 import burgericon from "./menu.svg";
+import vitelogo from "./Vitejs-logo.svg.png";
+import vercellogo from "./orig.png";
 
 export default {
   githubIcon,
@@ -40,4 +42,6 @@ export default {
   awsicon,
   chatboticon,
   burgericon,
+  vitelogo,
+  vercellogo,
 };

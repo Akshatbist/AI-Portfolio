@@ -269,7 +269,7 @@ const App = () => {
                     {[
                       { icon: icons.reactIcon, name: "React" },
                       { icon: icons.fastapiIcon, name: "FastAPI" },
-                      { icon: icons.supabaseIcon, name: "Supabase" },
+
                       { icon: icons.tensorflowIcon, name: "TensorFlow" },
                       { icon: icons.pytorchIcon, name: "PyTorch" },
                     ].map((item, i) => (
@@ -287,8 +287,10 @@ const App = () => {
                   <div className="tech-icons">
                     {[
                       { icon: icons.mongodbIcon, name: "MongoDB" },
+                      { icon: icons.supabaseIcon, name: "Supabase" },
                       { icon: icons.azureIcon, name: "Azure" },
                       { icon: icons.awsicon, name: "AWS" },
+                      { icon: icons.vitelogo, name: "Vite" },
                       { icon: icons.huggingfaceicon, name: "Hugging Face" },
                     ].map((item, i) => (
                       <div className="tooltip" key={i}>
