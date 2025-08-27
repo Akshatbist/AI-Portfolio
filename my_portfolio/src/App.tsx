@@ -5,7 +5,7 @@ import resumeBotLogo from "./bot_logo.png";
 import acneDetector from "./acneDetector.png";
 import ChatbotUI from "./ChatbotUI.tsx";
 import profilepic from "./profile_pic.jpg";
-import quantHub from "./QuantHub.png";
+import quantHub from "./Quanthub.png";
 import { useForm, ValidationError } from "@formspree/react";
 
 const formKey = import.meta.env.VITE_FORM_URL;
