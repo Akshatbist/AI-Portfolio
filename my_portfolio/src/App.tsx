@@ -5,6 +5,7 @@ import resumeBotLogo from "./bot_logo.png";
 import acneDetector from "./acneDetector.png";
 import ChatbotUI from "./ChatbotUI.tsx";
 import profilepic from "./profile_pic.jpg";
+import quantHub from "./QuantHub.png";
 import { useForm, ValidationError } from "@formspree/react";
 
 const formKey = import.meta.env.VITE_FORM_URL;
@@ -308,6 +309,25 @@ const App = () => {
           <div className="project_container">
             <h2 className="section-title">Projects</h2>
             <div className="project-cards">
+              <div className="project-card">
+                <a
+                  href="https://quant-hub-gold.vercel.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="project-card-inner">
+                    <img
+                      src={quantHub}
+                      alt="QuantHub"
+                      className="project-thumbnail"
+                    />
+                    <div className="project-overlay">
+                      <h3>QuantHub</h3>
+                      <p>SupaBase, React, Vercel, Systems Design</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
               <div className="project-card">
                 <a
                   href="https://github.com/Akshatbist/JobApplicationAutofillBot"
