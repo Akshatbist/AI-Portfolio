@@ -636,7 +636,9 @@ html {
   position: relative;
   width: 100%;
   height: 100%;
+  display: flex; /* ensures children stretch consistently */
 }
+
 .project-card-inner img{
   width: 100%;
   height: 100%;
@@ -656,38 +658,30 @@ html {
 
 .project-overlay {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(10, 20, 30, 0.85);
-  color: #adf;
+  inset: 0; /* shorthand for top/right/bottom/left = 0 */
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: center; /* vertical center */
+  align-items: center;     /* horizontal center */
   text-align: center;
+
+  background: rgba(10, 20, 30, 0.85);
+  color: #adf;
   padding: 20px;
   border-radius: 20px;
+
   opacity: 0;
   transform: translateY(20px);
   transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
-.project-overlay h3 {
-  margin-bottom: 10px;
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: #fff;
+
+.project-overlay h3,
+.project-overlay p {
+  margin: 0;
+  padding: 0;
 }
 
-.project-overlay p {
-  font-size: 1rem;
-  color: #adf;
-  line-height: 1.5;
-  margin: 0;
-  padding-top: 4px;
-}
 
 .project-overlay > * {
   margin-top: 6px;
