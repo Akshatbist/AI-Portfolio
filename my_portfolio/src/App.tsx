@@ -6,6 +6,7 @@ import acneDetector from "./acneDetector.png";
 import ChatbotUI from "./ChatbotUI.tsx";
 import profilepic from "./profile_pic.jpg";
 import quantHub from "./Quanthub.png";
+import slokaAI from "./slokaai.png";
 import { useForm, ValidationError } from "@formspree/react";
 
 const formKey = import.meta.env.VITE_FORM_URL;
@@ -366,6 +367,25 @@ const App = () => {
                   </div>
                 </a>
               </div>
+              <div className="project-card">
+                <a
+                  href="https://sloka.vercel.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="project-card-inner">
+                    <img
+                      src={slokaAI}
+                      alt="SlokaAI"
+                      className="project-thumbnail"
+                    />
+                    <div className="project-overlay">
+                      <h3>SlokaAI</h3>
+                      <p>SupaBase, React, AI</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
             </div>
           </div>
         </Section>
@@ -373,6 +393,9 @@ const App = () => {
           <div className="contact-container">
             <h2 className="contact-title">Contact</h2>
             <div className="contact-info">
+              <p>
+                <strong>Citizen:</strong> US Citizen
+              </p>
               <p>
                 <strong>Email:</strong> akshatbist04@gmail.com
               </p>
