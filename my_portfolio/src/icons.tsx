@@ -20,6 +20,7 @@ import chatboticon from "./chatbot-icon.svg";
 import burgericon from "./menu.svg";
 import vitelogo from "./Vitejs-logo.svg.png";
 import vercellogo from "./orig.png";
+import resumelogo from "./resume-icon.svg";
 
 export default {
   githubIcon,
@@ -44,4 +45,5 @@ export default {
   burgericon,
   vitelogo,
   vercellogo,
+  resumelogo,
 };

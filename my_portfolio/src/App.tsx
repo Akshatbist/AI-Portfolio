@@ -8,10 +8,9 @@ import profilepic from "./profile_pic.jpg";
 import quantHub from "./Quanthub.png";
 import slokaAI from "./slokaai.png";
 import { useForm, ValidationError } from "@formspree/react";
+import resume from "./Akshat_Resume.pdf";
 
 const formKey = import.meta.env.VITE_FORM_URL;
-
-//TODO: LAST CHANGE make everything look like its been scaled to 80%.
 
 function ContactForm() {
   const [state, handleSubmit] = useForm(formKey);
@@ -183,11 +182,7 @@ const App = () => {
                 rel="noopener noreferrer"
               >
                 <button className="button-style">
-                  <img
-                    src={icons.githubIcon}
-                    alt="GitHub Icon"
-                    className="icon"
-                  />
+                  <img src={icons.githubIcon} alt="GitHub" className="icon" />
                 </button>
               </a>
               <a
@@ -198,18 +193,19 @@ const App = () => {
                 <button className="button-style">
                   <img
                     src={icons.linkedinIcon}
-                    alt="LinkedIn Icon"
+                    alt="LinkedIn"
                     className="icon"
                   />
                 </button>
               </a>
               <a href="mailto:abist@cpp.edu">
                 <button className="button-style">
-                  <img
-                    src={icons.emailIcon}
-                    alt="Email Icon"
-                    className="icon"
-                  />
+                  <img src={icons.emailIcon} alt="Email" className="icon" />
+                </button>
+              </a>
+              <a href={resume} target="_blank" rel="noopener noreferrer">
+                <button className="button-style">
+                  <img src={icons.resumelogo} alt="Resume" className="icon" />
                 </button>
               </a>
             </div>
