@@ -2,6 +2,7 @@ Akshat Bist
 Contact: +1 510-513-1854 | abist@cpp.edu  
 LinkedIn: linkedin.com/in/akshat-bist  
 GitHub: github.com/Akshatbist
+Age: 21 years old
 Birthdate: October 29th, 2004
 
 Personal:
@@ -34,6 +35,13 @@ Role: Team Member, Pomona, CA
 - Optimized LSTM training with efficient large-scale data processing using NumPy and Pandas.  
 
 Projects:  
+
+Poker AI Bot (Fall 2025)
+-Implemented a Poker AI using the Counterfactual Regret Minimization (CFR) algorithm for decision-making in imperfect-information games.
+-Modeled poker game states, actions, and information sets to enable iterative regret updates and strategy optimization.
+-Trained the model through repeated self-play, refining strategies based on accumulated counterfactual regret.
+-Designed the codebase for extensibility to support additional poker variants and future algorithmic enhancements.
+
 Job Application Auto-fill Bot (Spring 2025)  
 - Built an AI-powered bot using Python, Selenium, OpenAI API, and FastAPI to extract resume data and autofill job applications.  
 - Designed modular architecture with robust error handling and a Chrome extension for easy access.  
