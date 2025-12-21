@@ -9,6 +9,7 @@ import quantHub from "./Quanthub.png";
 import slokaAI from "./slokaai.png";
 import { useForm, ValidationError } from "@formspree/react";
 import resume from "./Akshat_Resume.pdf";
+import pokerpic from "./pokerAI.png";
 
 const formKey = import.meta.env.VITE_FORM_URL;
 
@@ -308,19 +309,19 @@ const App = () => {
             <div className="project-cards">
               <div className="project-card">
                 <a
-                  href="https://quant-hub-gold.vercel.app"
+                  href="https://github.com/Akshatbist/AIPokerBot"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <div className="project-card-inner">
                     <img
-                      src={quantHub}
-                      alt="QuantHub"
+                      src={pokerpic}
+                      alt="Poker AI"
                       className="project-thumbnail"
                     />
                     <div className="project-overlay">
-                      <h3>QuantHub</h3>
-                      <p>SupaBase, React, Vercel, Systems Design</p>
+                      <h3>AI Poker Bot</h3>
+                      <p>Modular Python, Counterfactual Regret Minimization</p>
                     </div>
                   </div>
                 </a>
