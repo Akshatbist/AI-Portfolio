@@ -10,6 +10,7 @@ import slokaAI from "./slokaai.png";
 import { useForm, ValidationError } from "@formspree/react";
 import resume from "./Akshat_Resume.pdf";
 import pokerpic from "./pokerAI.png";
+import lifemax from "./lifemax_screen.png";
 
 const formKey = import.meta.env.VITE_FORM_URL;
 
@@ -309,6 +310,25 @@ const App = () => {
             <div className="project-cards">
               <div className="project-card">
                 <a
+                  href="https://lifemax-2de29.web.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="project-card-inner">
+                    <img
+                      src={lifemax}
+                      alt="Lifemax"
+                      className="project-thumbnail"
+                    />
+                    <div className="project-overlay">
+                      <h3>Lifemax</h3>
+                      <p>Flutter, Supabase, AI</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div className="project-card">
+                <a
                   href="https://github.com/Akshatbist/AIPokerBot"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -364,25 +384,7 @@ const App = () => {
                   </div>
                 </a>
               </div>
-              <div className="project-card">
-                <a
-                  href="https://sloka.vercel.app"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div className="project-card-inner">
-                    <img
-                      src={slokaAI}
-                      alt="SlokaAI"
-                      className="project-thumbnail"
-                    />
-                    <div className="project-overlay">
-                      <h3>SlokaAI</h3>
-                      <p>SupaBase, React, AI</p>
-                    </div>
-                  </div>
-                </a>
-              </div>
+              
             </div>
           </div>
         </Section>

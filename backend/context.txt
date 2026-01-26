@@ -1,64 +1,102 @@
-Akshat Bist  
-Contact: +1 510-513-1854 | abist@cpp.edu  
-LinkedIn: linkedin.com/in/akshat-bist  
-GitHub: github.com/Akshatbist
-Age: 21 years old
-Birthdate: October 29th, 2004
+Name: Akshat Bist
+Birthday: 2004-10-29
+Contact: +1 510-513-1854 | abist@cpp.edu
+LinkedIn: https://linkedin.com/in/akshat-bist
+GitHub: https://github.com/Akshatbist
 
-Personal:
-- Akshat is a curious and motivated learner who loves solving challenging problems with technology.   
-- Passionate about AI and machine learning, Akshat always looks for innovative ways to apply these tools to real-world problems.  
-- He values clear communication, creativity, and persistence in both work and learning.  
-- Outside of coding, Akshat likes going to the gym, play soccer and boxing, videography, and studying interesting subject. 
+Overview:
+Akshat Bist is a computer science–focused technologist and AI engineer who enjoys building intelligent systems that help people learn, improve, and make better decisions over time. His work centers on applied artificial intelligence, machine learning, and human-centered software design, with a strong emphasis on turning complex technical ideas into practical, real-world products.
 
-Education:  
-California State Polytechnic University, Pomona, CA  
-BA in Computer Information Systems, Minor in Computer Science (Aug 2022 – May 2026)  
-Honors: President’s List, Dean’s List, CBA Dean’s Honor Scholarship, Pace Setter’s Scholarship  
-Relevant Coursework: Deep Learning Specialist Certification, Big Data Analytics & Cloud Computing, Database Design & Development, Data Structures & Advanced Programming, Probability & Statistics for CS & Engineering, Multivariable Calculus, Linear Algebra  
+Personal Profile:
+Akshat is a curious and highly motivated learner who thrives on solving challenging problems with technology. He is particularly interested in how AI can guide behavior, learning, and skill acquisition rather than merely automate tasks. He values clear communication, structured thinking, creativity backed by engineering rigor, and persistence in long-term growth.
 
-Experience:  
-Research Team in Artificial Intelligence Applications and Implementations (Aug 2023 – May 2024)  
-Role: Research Lead, Pomona, CA  
-- Led and managed a 20+ member research team developing machine learning models and AI-driven software solutions.  
-- Engineered a cybersecurity chatbot with advanced NLP using PyTorch and TensorFlow for threat detection and automated response.  
-- Conducted AI workshops, mentoring students on deep learning and deployment, increasing engagement by 25%.  
+Outside of software development, Akshat enjoys strength training, boxing, playing soccer, videography, and studying psychology, learning theory, and emerging technologies.
 
-Research Team in Digital Forensics and Incident Response (Aug 2023 – Dec 2023)  
-Role: Research Lead, Pomona, CA  
-- Led a 15+ member team analyzing digital security threats and improving cybersecurity defenses with forensic methods.  
-- Delivered live decryption workshops providing hands-on experience in threat analysis.  
+Education:
+California State Polytechnic University, Pomona, CA
+Bachelor of Arts in Computer Information Systems
+Minor in Computer Science
+Aug 2022 – May 2026
 
-Machine Learning HTGR Project (Sep 2023 – Dec 2023)  
-Role: Team Member, Pomona, CA  
-- Developed neural networks predicting vehicle movements with 98% accuracy to improve autonomous system reliability.  
-- Optimized LSTM training with efficient large-scale data processing using NumPy and Pandas.  
+Honors:
+President’s List
+Dean’s List
+CBA Dean’s Honor Scholarship
+Pace Setter’s Scholarship
 
-Projects:  
+Relevant Coursework:
+Deep Learning Specialist Certification
+Big Data Analytics & Cloud Computing
+Database Design & Development
+Data Structures & Advanced Programming
+Probability & Statistics for CS & Engineering
+Linear Algebra
+Multivariable Calculus
+
+Research & Leadership Experience:
+
+Research Team in Artificial Intelligence Applications and Implementations
+Role: Research Lead
+Aug 2023 – May 2024
+Location: Pomona, CA
+- Led and coordinated a 20+ member research team building AI-driven software systems.
+- Designed and implemented a cybersecurity chatbot using advanced NLP techniques with PyTorch and TensorFlow.
+- Focused on threat detection, intent classification, and automated response generation.
+- Delivered hands-on AI workshops and mentored students in deep learning concepts and deployment practices, increasing engagement by 25%.
+
+Research Team in Digital Forensics and Incident Response
+Role: Research Lead
+Aug 2023 – Dec 2023
+Location: Pomona, CA
+- Led a 15+ member team analyzing digital security threats and forensic artifacts.
+- Conducted live decryption and incident-response workshops focused on real-world threat scenarios.
+- Strengthened team understanding of cybersecurity workflows and investigative tooling.
+
+Machine Learning HTGR Project
+Role: Team Member
+Sep 2023 – Dec 2023
+- Developed neural network models to predict vehicle movement patterns with 98% accuracy.
+- Utilized LSTM architectures for time-series prediction in autonomous systems.
+- Optimized large-scale data processing pipelines using NumPy and pandas.
+
+Projects:
 
 Poker AI Bot (Fall 2025)
--Implemented a Poker AI using the Counterfactual Regret Minimization (CFR) algorithm for decision-making in imperfect-information games.
--Modeled poker game states, actions, and information sets to enable iterative regret updates and strategy optimization.
--Trained the model through repeated self-play, refining strategies based on accumulated counterfactual regret.
--Designed the codebase for extensibility to support additional poker variants and future algorithmic enhancements.
+- Implemented a Poker AI using the Counterfactual Regret Minimization (CFR) algorithm for decision-making in imperfect-information environments.
+- Modeled poker game states, actions, and information sets to enable iterative regret updates.
+- Trained strategies through extensive self-play simulations.
+- Designed the system architecture to be extensible for additional poker variants and future algorithmic improvements.
 
-Job Application Auto-fill Bot (Spring 2025)  
-- Built an AI-powered bot using Python, Selenium, OpenAI API, and FastAPI to extract resume data and autofill job applications.  
-- Designed modular architecture with robust error handling and a Chrome extension for easy access.  
-- Managed dropdowns, checkboxes, and file uploads via semantic mapping and JavaScript injection.  
-- Used vector embeddings for persistent QA matching to enhance autofill accuracy.  
+Job Application Auto-Fill Bot (Spring 2025)
+- Built an AI-powered automation system using Python, Selenium, OpenAI API, and FastAPI.
+- Extracted structured resume data and automatically filled complex job applications.
+- Implemented semantic field matching using vector embeddings to improve accuracy and reliability.
+- Developed a Chrome extension interface and handled dynamic form behavior through JavaScript injection.
 
-Freelance AI Chatbot (Fall 2024)  
-- Developed a business-tailored chatbot using Retrieval-Augmented Generation (RAG), web scraping, OpenAI embeddings, and AstraDB for semantic search.  
-- Created a robust pipeline integrating large language models with a scalable vector database for efficient knowledge retrieval.  
+Freelance AI Chatbot (Fall 2024)
+- Developed a business-specific AI chatbot using Retrieval-Augmented Generation (RAG).
+- Integrated web scraping, OpenAI embeddings, and AstraDB for semantic search.
+- Designed a scalable knowledge retrieval pipeline for domain-specific question answering.
 
-Acne Detector (Fall 2024)  
-- Curated and annotated an acne image dataset for detection and severity classification using YOLOv8.  
-- Trained and optimized the YOLOv8 model for real-time acne detection.  
-- Developed a full-stack app with FastAPI backend and React (Vite + TypeScript) frontend for image upload and live results.  
-- Improved accuracy through data augmentation, confidence tuning, and bounding box visualization.  
+Acne Detection System (Fall 2024)
+- Curated and annotated an image dataset for acne detection and severity classification.
+- Trained and optimized a YOLOv8 model for real-time image inference.
+- Built a full-stack application using a FastAPI backend and a React (Vite + TypeScript) frontend.
+- Improved detection accuracy through data augmentation, confidence threshold tuning, and bounding box visualization.
 
-Technical Skills:  
-Languages: Python, Java, C, SQL, HTML, CSS, JavaScript, TypeScript  
-Frameworks: TensorFlow, PyTorch, pandas, NumPy, Seaborn, LangChain, ReactJS, FastAPI  
-Applications & Tools: MongoDB, Docker, Kubernetes, Microsoft Azure, AWS, HuggingFace, Kaggle, Erwin, Neo4J, PostgreSQL, VirtualBox  
+Current Focus:
+Akshat is currently building an AI-guided habit and skill formation application focused on helping users lock in one habit or skill at a time. The system provides structured, step-by-step guidance on what to learn, how to practice, and how to reinforce progress so skills and habits actually stick. The product emphasizes consistency, feedback loops, and behavioral reinforcement, combining AI-driven personalization with practical execution.
+
+Technical Skills:
+
+Programming Languages:
+Python, Java, C, SQL, HTML, CSS, JavaScript, TypeScript
+
+Frameworks & Libraries:
+TensorFlow, PyTorch, pandas, NumPy, LangChain, React, FastAPI
+
+Infrastructure & Tools:
+Docker, Kubernetes, AWS, Microsoft Azure, PostgreSQL, MongoDB, Neo4j, Hugging Face, Kaggle, VirtualBox
+
+Career Interests:
+Akshat is interested in roles involving applied artificial intelligence, machine learning engineering, AI product development, and full-stack or backend systems for intelligent applications. He is especially motivated by projects that combine technical depth, real-world impact, and long-term user growth.
