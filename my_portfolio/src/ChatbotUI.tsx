@@ -1,18 +1,14 @@
 import { useState } from "react";
+import { AnimatePresence } from "framer-motion";
 import "./App.css";
 import icons from "./icons.tsx";
 import ChatbotPopup from "./ChatbotPopup.tsx";
 
 const ChatbotUI = () => {
   const [modalOn, setModal] = useState(false);
-  const [closing, setClosing] = useState(false);
 
   const handleClose = () => {
-    setClosing(true);
-    setTimeout(() => {
-      setModal(false);
-      setClosing(false);
-    }, 300); 
+    setModal(false);
   };
 
   return (
@@ -22,7 +18,9 @@ const ChatbotUI = () => {
           <img src={icons.chatboticon} alt="Chatbot Icon" />
         </button>
       )}
-      {modalOn && <ChatbotPopup onClose={handleClose} closing={closing} />}
+      <AnimatePresence>
+        {modalOn && <ChatbotPopup onClose={handleClose} />}
+      </AnimatePresence>
     </div>
   );
 };

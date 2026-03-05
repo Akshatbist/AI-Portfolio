@@ -1,5 +1,5 @@
 Name: Akshat Bist
-Birthday: 2004-10-29
+Birthday: 2004-10-29 (21 years old)
 Contact: +1 510-513-1854 | abist@cpp.edu
 LinkedIn: https://linkedin.com/in/akshat-bist
 GitHub: https://github.com/Akshatbist
@@ -35,7 +35,7 @@ Multivariable Calculus
 
 Research & Leadership Experience:
 
-Research Team in Artificial Intelligence Applications and Implementations
+CalSys Lab (Research Team in Artificial Intelligence)
 Role: Research Lead
 Aug 2023 – May 2024
 Location: Pomona, CA
@@ -60,6 +60,12 @@ Sep 2023 – Dec 2023
 - Optimized large-scale data processing pipelines using NumPy and pandas.
 
 Projects:
+
+Onyx (AI Coding Assistant Platform)
+- Developed a high-performance web platform featuring dual AI coding assistants with distinct system prompts and capabilities.
+- Integrated a secure authentication flow and a robust payment gateway using Stripe.
+- Built utilizing a modern stack including Next.js, FastAPI, Prisma, and Supabase for seamless scalability.
+- Implemented a highly refined "Dark Luxe" aesthetic using Tailwind CSS and Radix UI primitives.
 
 Poker AI Bot (Fall 2025)
 - Implemented a Poker AI using the Counterfactual Regret Minimization (CFR) algorithm for decision-making in imperfect-information environments.

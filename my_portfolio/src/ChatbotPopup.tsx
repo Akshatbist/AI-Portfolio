@@ -1,13 +1,13 @@
 import React, { useState, useRef, useEffect } from "react";
+import { motion } from "framer-motion";
 import "./App.css";
 import icons from "./icons.tsx";
 
 interface ChatbotPopupProps {
   onClose: () => void;
-  closing: boolean;
 }
 
-const ChatbotPopup: React.FC<ChatbotPopupProps> = ({ onClose, closing }) => {
+const ChatbotPopup: React.FC<ChatbotPopupProps> = ({ onClose }) => {
   const [inputValue, setInputValue] = useState("");
   const [messages, setMessages] = useState<
     { sender: "bot" | "user"; text: string }[]
@@ -77,10 +77,12 @@ const ChatbotPopup: React.FC<ChatbotPopupProps> = ({ onClose, closing }) => {
   };
 
   return (
-    <div
-      className={`chatbot-popup-overlay ${
-        closing ? "fade-out-popup" : "fade-in-popup"
-      }`}
+    <motion.div
+      className="chatbot-popup-overlay"
+      initial={{ opacity: 0, y: 20, scale: 0.9 }}
+      animate={{ opacity: 1, y: 0, scale: 1 }}
+      exit={{ opacity: 0, y: 20, scale: 0.9 }}
+      transition={{ type: "spring", damping: 25, stiffness: 300 }}
     >
       <div className="chatbot-popup-container" ref={containerRef}>
         <div className="chatbot-messages">
@@ -128,7 +130,7 @@ const ChatbotPopup: React.FC<ChatbotPopupProps> = ({ onClose, closing }) => {
           </button>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
