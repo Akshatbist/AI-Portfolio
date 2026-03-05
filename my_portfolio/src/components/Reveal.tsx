@@ -7,9 +7,9 @@ interface RevealProps {
   delay?: number;
 }
 
-export const Reveal = ({ children, width = "100%", delay = 0.25 }: RevealProps) => {
+export const Reveal = ({ children, width = "100%", delay = 0.05 }: RevealProps) => {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, margin: "0px 0px -50px 0px" });
+  const isInView = useInView(ref, { once: true, margin: "0px 0px -20px 0px" });
   const mainControls = useAnimation();
 
   useEffect(() => {
@@ -22,12 +22,18 @@ export const Reveal = ({ children, width = "100%", delay = 0.25 }: RevealProps) 
     <div ref={ref} style={{ position: "relative", width }}>
       <motion.div
         variants={{
-          hidden: { opacity: 0, y: 40 },
+          hidden: { opacity: 0, y: 50 },
           visible: { opacity: 1, y: 0 },
         }}
         initial="hidden"
         animate={mainControls}
-        transition={{ duration: 0.8, delay: delay, ease: [0.22, 1, 0.36, 1] }}
+        transition={{ 
+          type: "spring", 
+          stiffness: 80, 
+          damping: 20, 
+          mass: 0.5,
+          delay: delay 
+        }}
       >
         {children}
       </motion.div>

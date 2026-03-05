@@ -4,7 +4,7 @@ import { Reveal } from "./Reveal";
 
 const TIMELINE_DATA = [
   {
-    year: "Oct 2024 - Present",
+    year: "Feb 2026 - Present",
     title: "Researcher & Developer",
     company: "CalSys Lab",
     description: "Creating a binary classifier for dark web data (target submission: ACM DTRAP Spring 2026). Built a custom web scraper using Selenium and BeautifulSoup to crawl and parse dark web pages.",
@@ -51,7 +51,7 @@ export const ExperienceTimeline = () => {
         {TIMELINE_DATA.map((item, index) => (
           <div key={index} className="timeline-item">
             <div className="timeline-dot" />
-            <Reveal delay={0.2}>
+            <Reveal delay={0.05}>
               <div className="timeline-content minimal-card">
                 <span className="timeline-year">{item.year}</span>
                 <h3 className="timeline-title">{item.title}</h3>

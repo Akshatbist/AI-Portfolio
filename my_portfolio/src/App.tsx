@@ -309,7 +309,7 @@ const App = () => {
             <h2 className="section-title">Projects</h2>
             <div className="project-cards">
               {PROJECTS_DATA.map((project, idx) => (
-                <Reveal delay={0.1 * (idx + 1)} key={project.title}>
+                <Reveal delay={0.05 * (idx + 1)} key={project.title}>
                   <div 
                     className="project-card minimal-card" 
                     onClick={() => setSelectedProject(project)}
@@ -336,7 +336,7 @@ const App = () => {
             <div className="tech-section-wrapper">
               <div className="skills-list-container">
                 {/* Languages */}
-                <Reveal delay={0.1}>
+                <Reveal delay={0.05}>
                   <div className="skills-row">
                     <h3 className="skills-category">Languages</h3>
                     <div className="skills-icons-row">
@@ -358,7 +358,7 @@ const App = () => {
                 </Reveal>
 
                 {/* Frameworks */}
-                <Reveal delay={0.2}>
+                <Reveal delay={0.1}>
                   <div className="skills-row">
                     <h3 className="skills-category">Frameworks</h3>
                     <div className="skills-icons-row">
@@ -378,7 +378,7 @@ const App = () => {
                 </Reveal>
 
                 {/* Tools */}
-                <Reveal delay={0.3}>
+                <Reveal delay={0.15}>
                   <div className="skills-row">
                     <h3 className="skills-category">Tools</h3>
                     <div className="skills-icons-row">
