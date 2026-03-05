@@ -1,0 +1,6 @@
+src/App.tsx(88,20): error TS7031: Binding element 'id' implicitly has an 'any' type.
+src/App.tsx(88,24): error TS7031: Binding element 'children' implicitly has an 'any' type.
+src/App.tsx(95,11): error TS18047: 'ref.current' is possibly 'null'.
+src/App.tsx(97,11): error TS18047: 'ref.current' is possibly 'null'.
+src/ChatbotUI.tsx(1,20): error TS6133: 'useRef' is declared but its value is never read.
+src/ChatbotUI.tsx(1,28): error TS6133: 'useEffect' is declared but its value is never read.

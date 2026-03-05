@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./App.css";
 import icons from "./icons.tsx";
 import ChatbotPopup from "./ChatbotPopup.tsx";
