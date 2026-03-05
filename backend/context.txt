@@ -37,7 +37,7 @@ Research & Leadership Experience:
 
 CalSys Lab (Research Team in Artificial Intelligence)
 Role: Research Lead
-Aug 2023 – May 2024
+Feb 2026 – Present
 Location: Pomona, CA
 - Led and coordinated a 20+ member research team building AI-driven software systems.
 - Designed and implemented a cybersecurity chatbot using advanced NLP techniques with PyTorch and TensorFlow.
