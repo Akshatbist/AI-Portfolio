@@ -85,6 +85,12 @@ const ChatbotPopup: React.FC<ChatbotPopupProps> = ({ onClose }) => {
       transition={{ type: "spring", damping: 25, stiffness: 300 }}
     >
       <div className="chatbot-popup-container" ref={containerRef}>
+        <div className="chatbot-popup-header">
+          <span className="chatbot-popup-title">Ask me anything</span>
+          <button className="chatbot-close-button" onClick={onClose} aria-label="Close chat">
+            ✕
+          </button>
+        </div>
         <div className="chatbot-messages">
           {messages.map((msg, idx) => (
             <div key={idx} className={`chat-message ${msg.sender}-message`}>

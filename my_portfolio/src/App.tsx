@@ -173,6 +173,11 @@ const App = () => {
     setMenuActive((prev) => !prev);
   };
 
+  const scrollTo = (id: string) => {
+    setMenuActive(false);
+    document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <>
       <div className="app">
@@ -197,45 +202,45 @@ const App = () => {
           {/* Responsive Navigation Menu */}
           <nav className={`navbar ${menuActive ? "active" : ""}`}>
             <Magnetic>
-              <a 
-                href="#home" 
-                onClick={() => setMenuActive(false)}
+              <a
+                href="#home"
+                onClick={(e) => { e.preventDefault(); scrollTo("home"); }}
                 className={activeSection === "home" ? "active-link" : ""}
               >
                 Home
               </a>
             </Magnetic>
             <Magnetic>
-              <a 
-                href="#about" 
-                onClick={() => setMenuActive(false)}
+              <a
+                href="#about"
+                onClick={(e) => { e.preventDefault(); scrollTo("about"); }}
                 className={activeSection === "about" ? "active-link" : ""}
               >
                 About
               </a>
             </Magnetic>
             <Magnetic>
-              <a 
-                href="#projects" 
-                onClick={() => setMenuActive(false)}
+              <a
+                href="#projects"
+                onClick={(e) => { e.preventDefault(); scrollTo("projects"); }}
                 className={activeSection === "projects" ? "active-link" : ""}
               >
                 Projects
               </a>
             </Magnetic>
             <Magnetic>
-              <a 
-                href="#skills" 
-                onClick={() => setMenuActive(false)}
+              <a
+                href="#skills"
+                onClick={(e) => { e.preventDefault(); scrollTo("skills"); }}
                 className={activeSection === "skills" ? "active-link" : ""}
               >
                 Skills
               </a>
             </Magnetic>
             <Magnetic>
-              <a 
-                href="#contact" 
-                onClick={() => setMenuActive(false)}
+              <a
+                href="#contact"
+                onClick={(e) => { e.preventDefault(); scrollTo("contact"); }}
                 className={activeSection === "contact" ? "active-link" : ""}
               >
                 Contact
