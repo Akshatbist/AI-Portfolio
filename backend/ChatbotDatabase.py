@@ -40,7 +40,7 @@ class ChatbotDatabase():
                 ids=[f"{safe_id}_{i}"]
         )
     
-    def query_similar(self, question, top_k=1):
+    def query_similar(self, question, top_k=3):
         embedding = self.model.encode(question).tolist()
         results = self.collection.query(
                 query_embeddings=[embedding],

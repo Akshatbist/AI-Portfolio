@@ -47,7 +47,7 @@ class PortfolioChatbot:
             self.db.store_context("PENDING_USER_INPUT", question)
 
         if documents and documents[0]:
-            answer= documents[0][0].strip()
+            answer = "\n\n".join(chunk.strip() for chunk in documents[0] if chunk).strip()
         else:
             answer = ""
 
@@ -68,8 +68,9 @@ class PortfolioChatbot:
                 {
                     "role": "system",
                     "content": "You are Akshat Bist's personal portfolio chatbot. You are friendly. "
-                    "Max 1-2 sentences."
-                    "DON'T BE VERBOSE. "
+                    "Max 1-2 sentences. DON'T BE VERBOSE. "
+                    "His current featured projects are Launchline and Sidekick. "
+                    "Do not mention Onyx or Resume Bot unless the visitor asks about old work. "
                     "If you do not know the answer, say 'I don't know'."
                 },
                 {

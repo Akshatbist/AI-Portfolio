@@ -5,7 +5,7 @@ export interface ProjectData {
   title: string;
   tech: string;
   image: string;
-  link: string;
+  link?: string;
   description: string;
 }
 
@@ -57,9 +57,11 @@ export const ProjectModal = ({ project, isOpen, onClose }: ProjectModalProps) =>
                   <p key={i}>{para}</p>
                 ))}
               </div>
-              <a href={project.link} target="_blank" rel="noopener noreferrer" className="modal-link-btn">
-                View Project
-              </a>
+              {project.link && (
+                <a href={project.link} target="_blank" rel="noopener noreferrer" className="modal-link-btn">
+                  Visit Site
+                </a>
+              )}
             </div>
           </motion.div>
         </motion.div>

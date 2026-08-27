@@ -1,108 +1,58 @@
 Name: Akshat Bist
 Birthday: 2004-10-29 (21 years old)
 Contact: +1 510-513-1854 | abist@cpp.edu
-LinkedIn: https://linkedin.com/in/akshat-bist
+LinkedIn: https://www.linkedin.com/in/akshat-bist-ba151224a/
 GitHub: https://github.com/Akshatbist
+Portfolio: https://akshatbist.vercel.app/
+Citizenship: US Citizen
+Location: California
 
 Overview:
-Akshat Bist is a computer science–focused technologist and AI engineer who enjoys building intelligent systems that help people learn, improve, and make better decisions over time. His work centers on applied artificial intelligence, machine learning, and human-centered software design, with a strong emphasis on turning complex technical ideas into practical, real-world products.
+Akshat Bist is an AI Solutions Engineer and full-stack builder who designs customer-facing AI systems for real business operations. His work focuses on RAG, conversational voice AI, agentic workflows, and production SaaS used by contractors and sales teams. He also consults with homeowners and businesses on security, automation, and connected technology as a Solution Advisor at ADT.
 
 Personal Profile:
-Akshat is a curious and highly motivated learner who thrives on solving challenging problems with technology. He is particularly interested in how AI can guide behavior, learning, and skill acquisition rather than merely automate tasks. He values clear communication, structured thinking, creativity backed by engineering rigor, and persistence in long-term growth.
-
-Outside of software development, Akshat enjoys strength training, boxing, playing soccer, videography, and studying psychology, learning theory, and emerging technologies.
+Akshat is a curious, highly motivated engineer who likes turning messy operational problems into reliable software. He values clear communication, structured thinking, and shipping systems people can actually use. Outside of software, he enjoys strength training, boxing, soccer, videography, and studying psychology and learning theory.
 
 Education:
-California State Polytechnic University, Pomona, CA
-Bachelor of Arts in Computer Information Systems
-Minor in Computer Science
-Aug 2022 – May 2026
+California State Polytechnic University, Pomona. B.A. Computer Information Systems, Minor in Computer Science. Aug 2022 – May 2026. Honors: President's List, Dean's List, CBA Dean's Honor Scholarship, Pace Setter's Scholarship. Coursework: Data Structures & Algorithms, Database Systems, Cloud Computing, Probability & Statistics, Multivariable Calculus, Linear Algebra.
 
-Honors:
-President’s List
-Dean’s List
-CBA Dean’s Honor Scholarship
-Pace Setter’s Scholarship
+Experience - Launchline:
+May 2026 – Present. Lead Software & AI/ML Engineer. Akshat founded Launchline, an AI SaaS with production web and iOS apps that automate contractor workflows through AI assistants. He ships customer-facing AI with OpenAI APIs, RAG, vector databases, and agentic workflows. Product site: https://launchline.us
 
-Relevant Coursework:
-Deep Learning Specialist Certification
-Big Data Analytics & Cloud Computing
-Database Design & Development
-Data Structures & Advanced Programming
-Probability & Statistics for CS & Engineering
-Linear Algebra
-Multivariable Calculus
+Launchline voice and agents:
+He built real-time conversational AI with Twilio Media Streams and the OpenAI Realtime API (1,000+ minutes of testing). Plan-execute-repair agents support 10+ tools and 25+ operations. RAG covers 8+ modules over 2,000+ documents, plus OCR for structured document extraction.
 
-Research & Leadership Experience:
+Experience - ADT:
+July 2026 – Present. Solution Advisor, San Jose, CA. Akshat consults with homeowners and businesses on security, automation, and connected technology. He runs discovery, designs solutions, demos products, and manages the sales lifecycle from qualification through onboarding, CRM, and installation handoff.
 
-CalSys Lab (Research Team in Artificial Intelligence)
-Role: Research Lead
-Feb 2026 – Present
-Location: Pomona, CA
-- Led and coordinated a 20+ member research team building AI-driven software systems.
-- Designed and implemented a cybersecurity chatbot using advanced NLP techniques with PyTorch and TensorFlow.
-- Focused on threat detection, intent classification, and automated response generation.
-- Delivered hands-on AI workshops and mentored students in deep learning concepts and deployment practices, increasing engagement by 25%.
+Experience - CALSys Lab:
+Jan 2026 – May 2026. Machine Learning Engineer, Pomona, CA. Akshat built machine learning solutions for cybersecurity using Python, PyTorch, and deep learning. He engineered feature extraction and preprocessing across 50,000+ records for NSF-funded DarkMiner research, evaluated 12+ model configurations, and optimized ML workflows and batching to cut preprocessing and experiment prep time by about 40%. He worked with researchers to turn cybersecurity problems into practical ML systems.
 
-Research Team in Digital Forensics and Incident Response
-Role: Research Lead
-Aug 2023 – Dec 2023
-Location: Pomona, CA
-- Led a 15+ member team analyzing digital security threats and forensic artifacts.
-- Conducted live decryption and incident-response workshops focused on real-world threat scenarios.
-- Strengthened team understanding of cybersecurity workflows and investigative tooling.
+Experience - Research Team in AI Applications and Implementations:
+Aug 2023 – Dec 2024. ML Engineering Lead, Pomona, CA. Akshat led a 20+ member engineering team building AI applications across LLMs, RAG, computer vision, and reinforcement learning. He managed planning, execution, documentation, and code reviews, mentored 10+ engineers (about 50% faster onboarding), and presented architecture and outcomes to technical and non-technical stakeholders.
 
-Machine Learning HTGR Project
-Role: Team Member
-Sep 2023 – Dec 2023
-- Developed neural network models to predict vehicle movement patterns with 98% accuracy.
-- Utilized LSTM architectures for time-series prediction in autonomous systems.
-- Optimized large-scale data processing pipelines using NumPy and pandas.
+Projects - Launchline:
+Launchline is Akshat's flagship AI SaaS for contractor operations. Stack and capabilities include OpenAI APIs, RAG, vector search, agentic plan-execute-repair workflows, Twilio Media Streams, OpenAI Realtime API, OCR, document processing, web, and iOS. It automates intake, customer conversations, and back-office workflows with grounded AI responses over 2,000+ indexed documents.
 
-Projects:
+Projects - Sidekick:
+Sidekick (2026) is a full-stack AI sales platform built with Next.js, TypeScript, Python, PostgreSQL, Supabase, Twilio, and OpenAI. It analyzes customer conversations, identifies next-best actions, and automates personalized lead follow-ups. LLM pipelines extract intent, objections, commitments, and follow-up actions. Twilio SMS handles scheduled follow-ups, message generation, delivery tracking, and opt-out. Architecture is multi-tenant SaaS with auth, RBAC, lead management, conversation history, and consent evidence for auditable messaging. Product site: https://www.sidekickio.com/
 
-Onyx (AI Coding Assistant Platform)
-- Developed a high-performance web platform featuring dual AI coding assistants with distinct system prompts and capabilities.
-- Integrated a secure authentication flow and a robust payment gateway using Stripe.
-- Built utilizing a modern stack including Next.js, FastAPI, Prisma, and Supabase for seamless scalability.
-- Implemented a highly refined "Dark Luxe" aesthetic using Tailwind CSS and Radix UI primitives.
+Projects - Poker AI Bot:
+Akshat built a Heads-Up No-Limit Texas Hold'em agent using Counterfactual Regret Minimization. GitHub: https://github.com/Akshatbist/AIPokerBot
 
-Poker AI Bot (Fall 2025)
-- Implemented a Poker AI using the Counterfactual Regret Minimization (CFR) algorithm for decision-making in imperfect-information environments.
-- Modeled poker game states, actions, and information sets to enable iterative regret updates.
-- Trained strategies through extensive self-play simulations.
-- Designed the system architecture to be extensible for additional poker variants and future algorithmic improvements.
+Projects - Acne Detector:
+A YOLOv8 computer-vision app that classifies acne from facial images, with a React frontend and FastAPI backend. GitHub: https://github.com/Akshatbist/Acne_Detector
 
-Job Application Auto-Fill Bot (Spring 2025)
-- Built an AI-powered automation system using Python, Selenium, OpenAI API, and FastAPI.
-- Extracted structured resume data and automatically filled complex job applications.
-- Implemented semantic field matching using vector embeddings to improve accuracy and reliability.
-- Developed a Chrome extension interface and handled dynamic form behavior through JavaScript injection.
-
-Freelance AI Chatbot (Fall 2024)
-- Developed a business-specific AI chatbot using Retrieval-Augmented Generation (RAG).
-- Integrated web scraping, OpenAI embeddings, and AstraDB for semantic search.
-- Designed a scalable knowledge retrieval pipeline for domain-specific question answering.
-
-Acne Detection System (Fall 2024)
-- Curated and annotated an image dataset for acne detection and severity classification.
-- Trained and optimized a YOLOv8 model for real-time image inference.
-- Built a full-stack application using a FastAPI backend and a React (Vite + TypeScript) frontend.
-- Improved detection accuracy through data augmentation, confidence threshold tuning, and bounding box visualization.
+Do not describe Onyx or Resume Bot / Job Application Auto-Fill Bot as current featured projects. Those were replaced by Launchline and Sidekick.
 
 Current Focus:
-Akshat is currently building an AI-guided habit and skill formation application focused on helping users lock in one habit or skill at a time. The system provides structured, step-by-step guidance on what to learn, how to practice, and how to reinforce progress so skills and habits actually stick. The product emphasizes consistency, feedback loops, and behavioral reinforcement, combining AI-driven personalization with practical execution.
+Akshat is currently leading Launchline, building Sidekick's conversation-intelligence and SMS follow-up workflows, and advising ADT customers on security and automation solutions. He is targeting AI Solutions Engineer, applied ML, and customer-facing AI product roles.
 
 Technical Skills:
-
-Programming Languages:
-Python, Java, C, SQL, HTML, CSS, JavaScript, TypeScript
-
-Frameworks & Libraries:
-TensorFlow, PyTorch, pandas, NumPy, LangChain, React, FastAPI
-
-Infrastructure & Tools:
-Docker, Kubernetes, AWS, Microsoft Azure, PostgreSQL, MongoDB, Neo4j, Hugging Face, Kaggle, VirtualBox
+AI & Generative AI: OpenAI API, Azure OpenAI, LLMs, RAG, LangChain, AI Agents, Prompt Engineering, Embeddings, Vector Databases, Conversational AI.
+Software Engineering: Python, SQL, JavaScript, TypeScript, React, FastAPI, PostgreSQL, Supabase, REST APIs.
+Cloud & Infrastructure: AWS, Azure, Docker, Git, CI/CD, SaaS Architecture.
+Solutions & Business: Technical Consulting, Customer Discovery, Solution Design, Product Demonstrations, Requirements Gathering, CRM, Stakeholder Communication.
 
 Career Interests:
-Akshat is interested in roles involving applied artificial intelligence, machine learning engineering, AI product development, and full-stack or backend systems for intelligent applications. He is especially motivated by projects that combine technical depth, real-world impact, and long-term user growth.
+Akshat wants roles in applied AI, machine learning engineering, AI product development, and solutions engineering where he can design, demo, and ship intelligent systems for real customers.

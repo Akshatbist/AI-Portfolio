@@ -1,8 +1,9 @@
 import "./App.css";
 import { useEffect, useRef, useState } from "react";
 import icons from "./icons.tsx";
-import resumeBotLogo from "./bot_logo.png";
 import acneDetector from "./acneDetector.png";
+import launchlinePic from "./launchline.png";
+import sidekickPic from "./sidekick.png";
 import ChatbotUI from "./ChatbotUI";
 import Magnetic from "./components/Magnetic";
 import { Reveal } from "./components/Reveal";
@@ -15,17 +16,23 @@ import profilepic from "./profile_pic.jpg";
 import { useForm, ValidationError } from "@formspree/react";
 import resume from "./Akshat_Resume.pdf";
 import pokerpic from "./pokerAI.png";
-import onyxPic from "./Onyx.png";
 
 const formKey = import.meta.env.VITE_FORM_URL;
 
 const PROJECTS_DATA: ProjectData[] = [
   {
-    title: "Onyx",
-    tech: "Next.js, Supabase, AI SDK, Stripe",
-    image: onyxPic,
-    link: "https://onyx-khaki-eight.vercel.app",
-    description: "A comprehensive AI-powered application built with Next.js, Supabase, and Stripe. It seamlessly handles subscription tiers, user authentication, and interacts with OpenAI's APIs to generate intelligent proposals and analysis."
+    title: "Launchline",
+    tech: "OpenAI, RAG, Twilio, Vector Search, iOS",
+    image: launchlinePic,
+    link: "https://launchline.us",
+    description: "AI-powered SaaS for contractor workflows, with production web and iOS apps. Customer-facing assistants use OpenAI APIs, RAG, vector search, and plan-execute-repair agents across 10+ tools and 25+ operations. Real-time voice is wired through Twilio Media Streams and the OpenAI Realtime API, with OCR pipelines that turn customer documents into structured business data."
+  },
+  {
+    title: "Sidekick",
+    tech: "Next.js, TypeScript, Python, PostgreSQL, Supabase, Twilio, OpenAI",
+    image: sidekickPic,
+    link: "https://www.sidekickio.com/",
+    description: "Full-stack AI sales platform that reads customer conversations, extracts intent, objections, and commitments, then automates next-best follow-ups. Twilio SMS covers scheduled outreach, delivery tracking, and opt-out. Multi-tenant architecture includes auth, role-based access, lead management, conversation history, and consent evidence for auditable messaging."
   },
   {
     title: "AI Poker Bot",
@@ -33,13 +40,6 @@ const PROJECTS_DATA: ProjectData[] = [
     image: pokerpic,
     link: "https://github.com/Akshatbist/AIPokerBot",
     description: "Developed a Poker AI agent capable of playing Heads-Up No-Limit Texas Hold'em. Utilized Counterfactual Regret Minimization algorithms iteratively trained for weeks to approximate Nash Equilibrium strategies."
-  },
-  {
-    title: "Resume Bot",
-    tech: "AI Integration, FastAPI, OpenAI API, Selenium",
-    image: resumeBotLogo,
-    link: "https://github.com/Akshatbist/JobApplicationAutofillBot",
-    description: "An automated web-scraping bot built using Selenium and Python. It reads job application forms, uses the OpenAI API to analyze requirements, and autonomously answers questions matching my exact resume."
   },
   {
     title: "Acne Detector",
@@ -255,7 +255,7 @@ const App = () => {
             <h1 className="minimal-title">
               <ScrambleText text="AKSHAT BIST" delay={0.2} />
             </h1>
-            <p className="minimal-subtitle">AI/Software Engineer</p>
+            <p className="minimal-subtitle">AI Solutions Engineer</p>
             <div className="minimal-socials">
               <Magnetic>
                 <a href="https://github.com/Akshatbist" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
@@ -294,9 +294,9 @@ const App = () => {
                     />
                   </div>
                   <div className="editorial-text">
-                    <h3 className="editorial-greeting">Software Developer & AI Researcher</h3>
+                    <h3 className="editorial-greeting">AI Solutions Engineer</h3>
                     <p className="editorial-paragraph">
-                      I specialize in building data-intensive systems and scalable backend architectures. My experience ranges from engineering Python microservices to developing dark web crawlers and leading research teams. I focus on bridging the gap between <strong>Machine Learning</strong> and robust <strong>Software Systems</strong> to ship high-performance, production-ready solutions.
+                      I design and ship customer-facing AI systems, from contractor workflow assistants at <strong>Launchline</strong> to conversation intelligence in <strong>Sidekick</strong>. My work spans RAG, real-time voice, agentic tools, and consultative solution design. I focus on turning messy operational problems into production software people can actually use.
                     </p>
                   </div>
                 </div>

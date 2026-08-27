@@ -4,28 +4,28 @@ import { Reveal } from "./Reveal";
 
 const TIMELINE_DATA = [
   {
-    year: "Feb 2026 - Present",
-    title: "Researcher & Developer",
-    company: "CalSys Lab",
-    description: "Creating a binary classifier for dark web data (target submission: ACM DTRAP Spring 2026). Built a custom web scraper using Selenium and BeautifulSoup to crawl and parse dark web pages.",
+    year: "July 2026 – Present",
+    title: "Solution Advisor",
+    company: "ADT (San Jose, CA)",
+    description: "Consults with homeowners and businesses on security, automation, and connected technology. Runs discovery, designs solutions, manages the sales lifecycle, and partners with installation teams on successful deployments.",
   },
   {
-    year: "Aug 2025 – Dec 2025",
-    title: "Software Engineer",
-    company: "Sloka AI (Pomona, CA)",
-    description: "Designed RESTful APIs and built Python microservices handling 100s of daily requests. Implemented health checks, monitoring, and CI/CD pipelines to ensure service reliability in a fast-paced environment.",
+    year: "May 2026 – Present",
+    title: "Lead Software & AI/ML Engineer",
+    company: "Launchline",
+    description: "Founded an AI SaaS platform for contractor workflows with production web and iOS apps. Ships RAG, agentic tools, OCR, and real-time voice AI using OpenAI and Twilio Media Streams.",
+  },
+  {
+    year: "Jan 2026 – May 2026",
+    title: "Machine Learning Engineer",
+    company: "CALSys Lab (Pomona, CA)",
+    description: "Built cybersecurity ML pipelines on 50,000+ records for NSF-funded DarkMiner research. Evaluated 12+ model configurations and cut preprocessing time by about 40%.",
   },
   {
     year: "Aug 2023 – Dec 2024",
-    title: "Research Lead – Software Systems",
-    company: "Research Team in AI Applications (Pomona, CA)",
-    description: "Led a 20+ engineer team building AI systems and processing pipelines for huge experimental datasets. Established testing standards, coordinated parallel projects, and mentored junior developers.",
-  },
-  {
-    year: "Sep 2023 – Dec 2023",
-    title: "Machine Learning Engineer",
-    company: "Machine Learning HTGR Project (Pomona, CA)",
-    description: "Built data preprocessing pipelines and trained LSTM models for time-series vehicle movement predictions. Systematically validated model accuracy across various experimental setups.",
+    title: "ML Engineering Lead",
+    company: "Research Team in AI Applications and Implementations (Pomona, CA)",
+    description: "Led a 20+ engineer team across LLMs, RAG, computer vision, and reinforcement learning. Mentored 10+ engineers and presented architecture decisions to technical and non-technical stakeholders.",
   }
 ];
 
